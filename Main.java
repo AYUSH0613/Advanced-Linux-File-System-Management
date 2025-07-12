@@ -8,7 +8,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         String input;
 
-        System.out.println("Advanced Linux File System (Java Version)");
+        System.out.println("Advanced Linux File System");
         System.out.println("Type 'help' for list of commands");
 
         while (true) {
