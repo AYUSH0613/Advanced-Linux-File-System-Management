@@ -11,7 +11,7 @@ public class FileSystem {
         pwd = root;
     }
 
-    private String currentPath(TreeNode node) {
+    public String currentPath(TreeNode node) {
         if (node == null || node == root) return "/";
         return currentPath(node.parent) + (node.parent == root ? "" : "/") + node.name;
     }
