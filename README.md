@@ -21,8 +21,11 @@ This is a Java-based simulation of an **Advanced Linux-like File System**, using
 ## 🧾 Project Structure
 
 LFMS/
-├── FileSystem.java // Core logic and operations
+
+├── FileSystem.java //Core logic and operations
+
 ├── TreeNode.java // Tree structure for file system
+
 └── Main.java // CLI interface for user interaction
 
 
@@ -59,45 +62,20 @@ tree
 find notes.txt
 rm notes.txt
 ```
-###📋 Supported Commands
-Command	Description
-mkdir <dir>	Create a new directory
-touch <file>	Create a new file
-cd <dir>	Change current directory
-cd ..	Move to parent directory
-ls	List contents of current directory
-pwd	Print current working directory
-rm <name>	Remove a file or an empty directory
-tree	Display hierarchical structure
-find <name>	Search and list paths matching the name
-help	Show available commands
-exit	Exit the CLI
+## 🛠️ Built With
 
-###🛠️ Built With
-*Java 8+
+- 💻 Java 21 (latest LTS version)
+- 🧠 Object-Oriented Design
+- 🌳 Tree & Linked List Data Structures
+- 🖥️ Command-Line Interface (CLI) with Scanner
 
-*Object-Oriented Design
-
-*Tree & Linked List data structures
-
-*CLI using Scanner
 
 
 👨‍💻 Author
+
 Ayush Gupta
-GitHub Profile
+[GitHub Profile](https://github.com/AYUSH0613)
 
 ###🙌 Acknowledgements
 Inspired by Linux CLI behavior and file system principles.
 
-```bash
-
----
-
-Let me know if you'd like:
-
-- A `LICENSE` file
-- Badge icons (build, version, license, etc.)
-- GitHub Pages documentation
-
-Or I can push the `README.md` directly to your repo if you link it.```
