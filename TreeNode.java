@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class TreeNode {
     String name;
-    char type; // 'd' for directory, '-' for file
+    char type;
     String cdate, mdate;
     int permission;
     TreeNode parent, firstChild, nextSibling;
